@@ -183,12 +183,12 @@ class ScatterPlot(BaseXYPlot):
     outline_color = black_color_trait
 
     # The RGBA tuple for rendering lines.  It is always a tuple of length 4.
-    # It has the same RGB values as color_, and its alpha value is the alpha
+    # It has the same RGB values as `color_`, and its alpha value is the alpha
     # value of self.color multiplied by self.alpha. 
     effective_color = Property(Tuple, depends_on=['color', 'alpha'])
     
     # The RGBA tuple for rendering the fill.  It is always a tuple of length 4.
-    # It has the same RGB values as outline_color_, and its alpha value is the
+    # It has the same RGB values as `outline_color_`, and its alpha value is the
     # alpha value of self.outline_color multiplied by self.alpha.   
     effective_outline_color = Property(Tuple, depends_on=['outline_color', 'alpha'])
 
