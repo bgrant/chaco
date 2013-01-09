@@ -33,7 +33,7 @@ class LinePlot(BaseXYPlot):
     color = black_color_trait
 
     # The RGBA tuple for rendering lines.  It is always a tuple of length 4.
-    # It has the same RGB values as color_, and its alpha value is the alpha
+    # It has the same RGB values as `color_`, and its alpha value is the alpha
     # value of self.color multiplied by self.alpha. 
     effective_color = Property(Tuple, depends_on=['color', 'alpha'])
 
