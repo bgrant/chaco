@@ -735,10 +735,6 @@ class Plot(DataView):
             The type of scale to use for the value axis.  If not "linear",
             then a log scale is used.
 
-        Styles
-        ------
-        These are all optional keyword arguments.
-
         bar_color : string, 3- or 4-tuple
             The fill color of the bar; defaults to "auto".
         bar_line_color : string, 3- or 4-tuple

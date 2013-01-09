@@ -53,8 +53,8 @@ class AbstractTickGenerator(HasTraits):
             Where ticks are to be placed.
 
 
-        Example
-        -------
+        Examples
+        --------
         If the range of x-values in a line plot span from -15.0 to +15.0, but
         the plot is currently displaying only the region from 3.1 to 6.83, and
         the user wants the interval to be automatically computed to be some
